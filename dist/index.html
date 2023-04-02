@@ -1,16 +1,343 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja-JP" dir="ltr">
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>福島CoderDojo紹介サイト</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ===============================================-->
+  <!--    Document Title-->
+  <!-- ===============================================-->
+  <title>福島のCoderDojo</title>
+
+  <!-- ===============================================-->
+  <!--    Favicons-->
+  <!-- ===============================================-->
+  <link href="/assets/favicon-6cd06c34a9fbe5ac770324ad50c0dd4a37d5944199cec61716f84c32dbfb92f9.svg" rel="icon"
+    type="image/svg+xml" />
+  <link href="/assets/favicon-16-10b944ca0b57f635475076412562cefe322acd718425dc90593c0f53e045c767.png" rel="icon"
+    sizes="16x16" type="image/png" />
+  <link href="/assets/favicon-48-ee2b4c64d9bc2a7678f018285af88196769a77d37e9358b2428a813958d9c410.png" rel="icon"
+    sizes="48x48" type="image/png" />
+  <link href="/assets/apple-touch-icon-180-8b78fdccdb95d5535ecb85e9f905d5f5506b9e8785f24bcc38101ec4d998f744.png"
+    rel="apple-touch-icon" sizes="180x180" />
+
+  <!-- ===============================================-->
+  <!--    Stylesheets-->
+  <!-- ===============================================-->
+  <link href="assets/css/theme.css" rel="stylesheet" />
+
+  <!-- ===============================================-->
+  <!--    Open Graph -->
+  <!-- ===============================================-->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="og:url" content="https://fukushima-coderdojo.com/" />
+  <meta property="og:title" content="福島のCoderDojo" />
+  <meta property="og:description" content="福島県内のCoderDojoを紹介するサイトです。" />
+  <meta property="og:image" content="https://fukushima-coderdojo.com/img/ig_image.png" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M802KV7QFY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-M802KV7QFY');
+  </script>
 </head>
 
+
 <body>
-  <h1>福島CoderDojo紹介サイト</h1>
-  <p>準備中です。</p>
+
+  <!-- ===============================================-->
+  <!--    Main Content-->
+  <!-- ===============================================-->
+  <main class="main" id="top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-5 d-block"
+      data-navbar-on-scroll="data-navbar-on-scroll">
+      <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/main_logo.svg" height="34"
+            alt="logo" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+            class="navbar-toggler-icon"> </span></button>
+        <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base align-items-lg-center align-items-start">
+            <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page"
+                href="#about-coderdojo">CoderDojoとは</a></li>
+            <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page"
+                href="#dojos">近くのDojo</a></li>
+            <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" href="#event">イベント</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section style="padding-top: 7rem;">
+      <div class="bg-holder" style="background-image:url(assets/img/hero/hero-bg.svg);">
+      </div>
+      <!--/.bg-holder-->
+
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-5 col-lg-6 order-0 order-md-1 text-end"><img class="pt-7 pt-md-0 hero-img"
+              src="assets/img/hero/hero.svg" alt="hero-header" /></div>
+          <div class="col-md-7 col-lg-6 text-md-start text-center py-6">
+            <h4 class="fw-bold text-danger mb-3">楽しく学ぼう！</h4>
+            <h1 class="hero-title">未来を創造する<br class="d-none d-md-block" />スキル</h1>
+            <p class="mb-4 fw-medium">CoderDojoは世界各地で運営されているボランティアベースのプログラミングクラブです。<br
+                class="d-none d-xl-block" />福島県内には6つのCoderDojoがあり、定期的に開催されています。<br
+                class="d-none d-xl-block" />お近くのDojoにお気軽に行ってみよう！</p>
+            <div class="text-center text-md-start"> <a
+                class="btn btn-primary btn-lg me-md-4 mb-3 mb-md-0 border-0 primary-btn-shadow"
+                href="https://coderdojo.jp/" target="_blank" role="button">CoderDojoについて詳しく</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <section class="pt-5 pt-md-9" id="about-coderdojo">
+
+      <div class="container">
+        <div class="position-absolute z-index--1 end-0 d-none d-lg-block"><img src="assets/img/category/shape.svg"
+            style="max-width: 200px" alt="service" /></div>
+        <div class="mb-7 text-center">
+          <h5 class="text-secondary">CoderDojoとは</h5>
+          <h3 class="fs-xl-10 fs-lg-8 fs-7 fw-bold text-capitalize">子どもが主体的に学ぶ場です</h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 mb-6">
+            <div class="card service-card shadow-hover rounded-3 text-center align-items-center">
+              <div class="card-body p-xxl-5 p-4"> <img src="assets/img/icons/programing.png" width="75" alt="Service" />
+                <h4 class="mb-3">プログラミング</h4>
+                <p class="mb-0 fw-medium"><a href="https://scratch.mit.edu/" target="_blank">Scratch</a>や<a
+                    href="https://www.viscuit.com/"
+                    target="_blank">Viscuit</a>を使って簡単なゲームを作ってみよう。上級者はJavaScriptやPythonにも挑戦だ！</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-6">
+            <div class="card service-card shadow-hover rounded-3 text-center align-items-center">
+              <div class="card-body p-xxl-5 p-4"> <img src="assets/img/icons/Raspberry-Pi.png" width="75"
+                  alt="Service" />
+                <h4 class="mb-3">電子工作</h4>
+                <p class="mb-0 fw-medium"><a href="https://microbit.org/ja/" target="_blank">micro:bit</a>, <a
+                    href="https://www.raspberrypi.com/" target="_blank">Raspberry Pi</a>などのマイコンやセンサーを使ってモノづくりを体験しよう！</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-6">
+            <div class="card service-card shadow-hover rounded-3 text-center align-items-center">
+              <div class="card-body p-xxl-5 p-4"> <img src="assets/img/icons/Projector_Screen.png" width="70"
+                  alt="Service" />
+                <h4 class="mb-3">デジタルアート</h4>
+                <p class="mb-0 fw-medium">デジタルイラスト、DTM(作曲)、動画撮影・編集して、みんなに見てもらおう！</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-6">
+            <div class="card service-card shadow-hover rounded-3 text-center align-items-center">
+              <div class="card-body p-xxl-5 p-4"> <img src="assets/img/icons/Laptop.png" width="75" alt="Service" />
+                <h4 class="mb-3">その他ICTスキル</h4>
+                <p class="mb-0 fw-medium">AI / VR・AR / 3Dモデリング・プリンティング / ロボティクス..etc
+                  テクノロジーを自由に探求してください。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- end of .container-->
+
+    </section>
+    <!-- <section> close ============================-->
+    <!-- ============================================-->
+
+
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <section class="pt-5" id="dojos">
+
+      <div class="container">
+        <div class="mb-7 text-center">
+          <h5 class="text-secondary">近くのDojo</h5>
+          <h3 class="fs-xl-10 fs-lg-8 fs-7 fw-bold text-capitalize">お気軽に遊びにきてください</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dojo/aizu_v2.png"
+                alt="CoderDojo会津" />
+              <div class="card-body py-4 px-3">
+                <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                  <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link"
+                      href="https://coderdojoaizu.mystrikingly.com/" target="_blank">CoderDojo会津</a></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dojo/shirakawa_v2.png"
+                alt="CoderDojo白河" />
+              <div class="card-body py-4 px-3">
+                <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                  <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link"
+                      href="https://coderdojoshirakawa.hateblo.jp/" target="_blank">CoderDojo白河</a></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dojo/kitakata_v2.png"
+                alt="CoderDojo喜多方" />
+              <div class="card-body py-4 px-3">
+                <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                  <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link"
+                      href="#!">CoderDojo喜多方</a></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dojo/miharu_v2.png"
+                alt="CoderDojo三春" />
+              <div class="card-body py-4 px-3">
+                <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                  <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link"
+                      href="https://www.coderdojo-miharu.com/" target="_blank">CoderDojo三春</a></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dojo/yabuki_v2.png"
+                alt="CoderDojo矢吹" />
+              <div class="card-body py-4 px-3">
+                <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                  <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link"
+                      href="https://sites.google.com/coderdojo.com/coderdojo-yabuki/home"
+                      target="_blank">CoderDojo矢吹</a></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dojo/nihonmatsu_v2.png"
+                alt="CoderDojo二本松" />
+              <div class="card-body py-4 px-3">
+                <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                  <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link"
+                      href="https://coderdojo-nihonmatsu.com/" target="_blank">CoderDojo二本松</a></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- end of .container-->
+
+    </section>
+    <!-- <section> close ============================-->
+    <!-- ============================================-->
+
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <section id="event">
+
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="mb-4 text-start">
+              <h5 class="text-secondary">イベント</h5>
+              <h3 class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize">福島でかドージョー2023</h3>
+            </div>
+            <div class="d-flex align-items-start mb-5">
+              <img src="assets/img/event/Star.png" width="80" alt="steps" />
+              <div class="flex-1">
+                <h5 class="text-secondary fw-bold fs-0">県内6つのDojoが集合！</h5>
+                <p>親子で楽しめるプログラミングイベントを企画中です！</p>
+              </div>
+            </div>
+            <div class="d-flex align-items-start mb-5">
+              <img src="assets/img/event/Star.png" width="80" alt="steps" />
+              <div class="flex-1">
+                <h5 class="text-secondary fw-bold fs-0">会津大学 開学30周年記念イベント</h5>
+                <p>「全国高等学校パソコンコンクール実行委員会」との共催です。</p>
+              </div>
+            </div>
+            <div class="d-flex align-items-start mb-5">
+              <img src="assets/img/event/Star.png" width="80" alt="steps" />
+              <div class="flex-1">
+                <h5 class="text-secondary fw-bold fs-0">2023年6月18日（日曜）</h5>
+                <p>場所は<a href="https://u-aizu.ac.jp/" target="_blank">会津大学 講義棟</a>。参加無料です！</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex justify-content-center align-items-start">
+            <a href="https://decadojo.fukushima-coderdojo.com/"><img class="mb-4 mt-2 rounded-2 w-100"
+                src="assets/img/event/decadojo-logo-bk.svg" alt="福島でかドージョー2023" /></a>
+            <!-- <div class="card position-relative shadow" style="max-width: 370px;">
+              <div class="position-absolute z-index--1 me-10 me-xxl-0" style="right:-160px;top:-210px;">
+                <img src="assets/img/steps/bg.png" style="max-width:550px;" alt="shape" />
+              </div>
+              <div class="card-body p-3">
+              </div>
+            </div> -->
+          </div>
+          <div class="col-12 d-flex justify-content-center">
+            <div class="text-center text-md-start">
+              <a class="btn btn-dark btn-lg me-md-4 mb-3 mb-md-0 border-0 primary-btn-shadow"
+                href="https://decadojo.fukushima-coderdojo.com/" target="_blank" role="button">イベント詳細は公式ページへ</a>
+            </div>
+          </div>
+        </div>
+      </div><!-- end of .container-->
+
+    </section>
+    <!-- <section> close ============================-->
+    <!-- ============================================-->
+
+
+
+
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <section class="pb-5 pb-lg-4">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center">
+            <img src="assets/img/coderdojo_logo.svg" alt="CoderDojo" width="100" />
+          </div>
+        </div>
+      </div><!-- end of .container-->
+
+    </section>
+    <!-- <section> close ============================-->
+    <!-- ============================================-->
+
+  </main>
+  <!-- ===============================================-->
+  <!--    End of Main Content-->
+  <!-- ===============================================-->
+
+
+
+
+  <!-- ===============================================-->
+  <!--    JavaScripts-->
+  <!-- ===============================================-->
+  <script src="vendors/@popperjs/popper.min.js"></script>
+  <script src="vendors/bootstrap/bootstrap.min.js"></script>
+  <script src="vendors/is/is.min.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+  <script src="vendors/fontawesome/all.min.js"></script>
+  <script src="assets/js/theme.js"></script>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Volkhov:wght@700&amp;display=swap"
+    rel="stylesheet">
 </body>
 
 </html>
