@@ -19480,7 +19480,7 @@ iframe {
 }
 
 .hero-title {
-  font-family: "Volkhov", "DM Serif Display", cursive;
+  /* font-family: "Volkhov", "DM Serif Display", cursive; */
   font-weight: 700;
   font-size: 2.88651rem;
   color: #181E4B;
